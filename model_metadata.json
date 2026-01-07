@@ -1,0 +1,63 @@
+{
+  "feature_columns": [
+    "Delivery_person_Ratings",
+    "Vehicle_condition",
+    "distance_km",
+    "hour",
+    "is_peak_hour",
+    "weather_severity",
+    "traffic_severity"
+  ],
+  "target_column": "pay_received",
+  "base_value": 180.15638826429395,
+  "model_metrics": {
+    "test_r2": 0.9835323168071883,
+    "test_mae": 7.966629504998916,
+    "test_rmse": 10.01339730927486
+  },
+  "feature_importance": [
+    {
+      "feature": "distance_km",
+      "importance": 1880
+    },
+    {
+      "feature": "Delivery_person_Ratings",
+      "importance": 1162
+    },
+    {
+      "feature": "hour",
+      "importance": 870
+    },
+    {
+      "feature": "weather_severity",
+      "importance": 842
+    },
+    {
+      "feature": "traffic_severity",
+      "importance": 657
+    },
+    {
+      "feature": "Vehicle_condition",
+      "importance": 320
+    },
+    {
+      "feature": "is_peak_hour",
+      "importance": 256
+    }
+  ],
+  "feature_descriptions": {
+    "Delivery_person_Ratings": "Delivery Person Ratings",
+    "Vehicle_condition": "Vehicle Condition",
+    "distance_km": "Distance Km",
+    "hour": "Hour",
+    "is_peak_hour": "Is Peak Hour",
+    "weather_severity": "Weather Severity",
+    "traffic_severity": "Traffic Severity"
+  },
+  "dataset_info": {
+    "total_rows": 45593,
+    "train_rows": 36474,
+    "test_rows": 9119,
+    "n_features": 7
+  }
+}

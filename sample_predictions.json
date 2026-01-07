@@ -1,0 +1,332 @@
+[
+  {
+    "input": {
+      "Delivery_person_Ratings": 4.8,
+      "Vehicle_condition": 2.0,
+      "distance_km": 10.906036622245484,
+      "hour": 17.0,
+      "is_peak_hour": 0.0,
+      "weather_severity": 3.0,
+      "traffic_severity": 1.0
+    },
+    "prediction": 191.11610736476192,
+    "actual": 184.8723085633569,
+    "error": 6.243798801405006,
+    "base_value": 180.15638826429395,
+    "explanation": [
+      {
+        "feature": "distance_km",
+        "feature_description": "Distance Km",
+        "value": 10.906036622245484,
+        "shap_contribution": 15.787405536340083,
+        "impact": "positive"
+      },
+      {
+        "feature": "is_peak_hour",
+        "feature_description": "Is Peak Hour",
+        "value": 0.0,
+        "shap_contribution": -14.040689168362878,
+        "impact": "negative"
+      },
+      {
+        "feature": "weather_severity",
+        "feature_description": "Weather Severity",
+        "value": 3.0,
+        "shap_contribution": 6.346492790573975,
+        "impact": "positive"
+      },
+      {
+        "feature": "Delivery_person_Ratings",
+        "feature_description": "Delivery Person Ratings",
+        "value": 4.8,
+        "shap_contribution": 2.94857319349132,
+        "impact": "positive"
+      },
+      {
+        "feature": "traffic_severity",
+        "feature_description": "Traffic Severity",
+        "value": 1.0,
+        "shap_contribution": -1.447821742616943,
+        "impact": "negative"
+      },
+      {
+        "feature": "hour",
+        "feature_description": "Hour",
+        "value": 17.0,
+        "shap_contribution": 1.3220697754461435,
+        "impact": "positive"
+      },
+      {
+        "feature": "Vehicle_condition",
+        "feature_description": "Vehicle Condition",
+        "value": 2.0,
+        "shap_contribution": 0.04369011863716878,
+        "impact": "positive"
+      }
+    ]
+  },
+  {
+    "input": {
+      "Delivery_person_Ratings": 4.6,
+      "Vehicle_condition": 0.0,
+      "distance_km": 12.418408999826822,
+      "hour": 21.0,
+      "is_peak_hour": 1.0,
+      "weather_severity": 1.0,
+      "traffic_severity": 3.0
+    },
+    "prediction": 239.55446242921988,
+    "actual": 229.6825012003223,
+    "error": 9.87196122889759,
+    "base_value": 180.15638826429395,
+    "explanation": [
+      {
+        "feature": "distance_km",
+        "feature_description": "Distance Km",
+        "value": 12.418408999826822,
+        "shap_contribution": 36.31300384165457,
+        "impact": "positive"
+      },
+      {
+        "feature": "traffic_severity",
+        "feature_description": "Traffic Severity",
+        "value": 3.0,
+        "shap_contribution": 13.078580097174854,
+        "impact": "positive"
+      },
+      {
+        "feature": "is_peak_hour",
+        "feature_description": "Is Peak Hour",
+        "value": 1.0,
+        "shap_contribution": 9.237884701571893,
+        "impact": "positive"
+      },
+      {
+        "feature": "weather_severity",
+        "feature_description": "Weather Severity",
+        "value": 1.0,
+        "shap_contribution": -3.9806700072356036,
+        "impact": "negative"
+      },
+      {
+        "feature": "Delivery_person_Ratings",
+        "feature_description": "Delivery Person Ratings",
+        "value": 4.6,
+        "shap_contribution": 3.097595187756233,
+        "impact": "positive"
+      },
+      {
+        "feature": "hour",
+        "feature_description": "Hour",
+        "value": 21.0,
+        "shap_contribution": 1.6961463166458999,
+        "impact": "positive"
+      },
+      {
+        "feature": "Vehicle_condition",
+        "feature_description": "Vehicle Condition",
+        "value": 0.0,
+        "shap_contribution": -0.04445506755728275,
+        "impact": "negative"
+      }
+    ]
+  },
+  {
+    "input": {
+      "Delivery_person_Ratings": 4.2,
+      "Vehicle_condition": 2.0,
+      "distance_km": 6.232321450753526,
+      "hour": 13.0,
+      "is_peak_hour": 0.0,
+      "weather_severity": 1.0,
+      "traffic_severity": 2.0
+    },
+    "prediction": 112.56461248680883,
+    "actual": 109.20820585078356,
+    "error": 3.3564066360252696,
+    "base_value": 180.15638826429395,
+    "explanation": [
+      {
+        "feature": "distance_km",
+        "feature_description": "Distance Km",
+        "value": 6.232321450753526,
+        "shap_contribution": -34.15314536481514,
+        "impact": "negative"
+      },
+      {
+        "feature": "Delivery_person_Ratings",
+        "feature_description": "Delivery Person Ratings",
+        "value": 4.2,
+        "shap_contribution": -16.270689160779366,
+        "impact": "negative"
+      },
+      {
+        "feature": "is_peak_hour",
+        "feature_description": "Is Peak Hour",
+        "value": 0.0,
+        "shap_contribution": -8.107847716980613,
+        "impact": "negative"
+      },
+      {
+        "feature": "hour",
+        "feature_description": "Hour",
+        "value": 13.0,
+        "shap_contribution": -4.426050695011509,
+        "impact": "negative"
+      },
+      {
+        "feature": "weather_severity",
+        "feature_description": "Weather Severity",
+        "value": 1.0,
+        "shap_contribution": -3.727974533753004,
+        "impact": "negative"
+      },
+      {
+        "feature": "traffic_severity",
+        "feature_description": "Traffic Severity",
+        "value": 2.0,
+        "shap_contribution": -1.1310434504496516,
+        "impact": "negative"
+      },
+      {
+        "feature": "Vehicle_condition",
+        "feature_description": "Vehicle Condition",
+        "value": 2.0,
+        "shap_contribution": 0.22496934883558425,
+        "impact": "positive"
+      }
+    ]
+  },
+  {
+    "input": {
+      "Delivery_person_Ratings": 4.7,
+      "Vehicle_condition": 0.0,
+      "distance_km": 4.717601092054723,
+      "hour": 20.0,
+      "is_peak_hour": 1.0,
+      "weather_severity": 0.0,
+      "traffic_severity": 3.0
+    },
+    "prediction": 143.8910558572549,
+    "actual": 150.37126054508377,
+    "error": 6.480204687828859,
+    "base_value": 180.15638826429395,
+    "explanation": [
+      {
+        "feature": "distance_km",
+        "feature_description": "Distance Km",
+        "value": 4.717601092054723,
+        "shap_contribution": -53.378785211441574,
+        "impact": "negative"
+      },
+      {
+        "feature": "traffic_severity",
+        "feature_description": "Traffic Severity",
+        "value": 3.0,
+        "shap_contribution": 13.011369890684145,
+        "impact": "positive"
+      },
+      {
+        "feature": "weather_severity",
+        "feature_description": "Weather Severity",
+        "value": 0.0,
+        "shap_contribution": -8.27787052129046,
+        "impact": "negative"
+      },
+      {
+        "feature": "is_peak_hour",
+        "feature_description": "Is Peak Hour",
+        "value": 1.0,
+        "shap_contribution": 7.379978307050187,
+        "impact": "positive"
+      },
+      {
+        "feature": "Delivery_person_Ratings",
+        "feature_description": "Delivery Person Ratings",
+        "value": 4.7,
+        "shap_contribution": 2.8215564632980388,
+        "impact": "positive"
+      },
+      {
+        "feature": "hour",
+        "feature_description": "Hour",
+        "value": 20.0,
+        "shap_contribution": 2.1897796794309397,
+        "impact": "positive"
+      },
+      {
+        "feature": "Vehicle_condition",
+        "feature_description": "Vehicle Condition",
+        "value": 0.0,
+        "shap_contribution": -0.011365829974529333,
+        "impact": "negative"
+      }
+    ]
+  },
+  {
+    "input": {
+      "Delivery_person_Ratings": 4.7,
+      "Vehicle_condition": 0.0,
+      "distance_km": 3.116253656338934,
+      "hour": 11.0,
+      "is_peak_hour": 0.0,
+      "weather_severity": 1.0,
+      "traffic_severity": 2.0
+    },
+    "prediction": 96.70783520813947,
+    "actual": 132.281856723057,
+    "error": 35.57402151491752,
+    "base_value": 180.15638826429395,
+    "explanation": [
+      {
+        "feature": "distance_km",
+        "feature_description": "Distance Km",
+        "value": 3.116253656338934,
+        "shap_contribution": -69.6984280459123,
+        "impact": "negative"
+      },
+      {
+        "feature": "is_peak_hour",
+        "feature_description": "Is Peak Hour",
+        "value": 0.0,
+        "shap_contribution": -8.922844876996242,
+        "impact": "negative"
+      },
+      {
+        "feature": "hour",
+        "feature_description": "Hour",
+        "value": 11.0,
+        "shap_contribution": -4.928797523904359,
+        "impact": "negative"
+      },
+      {
+        "feature": "weather_severity",
+        "feature_description": "Weather Severity",
+        "value": 1.0,
+        "shap_contribution": -3.5059285674564307,
+        "impact": "negative"
+      },
+      {
+        "feature": "Delivery_person_Ratings",
+        "feature_description": "Delivery Person Ratings",
+        "value": 4.7,
+        "shap_contribution": 2.8455342133215162,
+        "impact": "positive"
+      },
+      {
+        "feature": "traffic_severity",
+        "feature_description": "Traffic Severity",
+        "value": 2.0,
+        "shap_contribution": 0.6784653665625956,
+        "impact": "positive"
+      },
+      {
+        "feature": "Vehicle_condition",
+        "feature_description": "Vehicle Condition",
+        "value": 0.0,
+        "shap_contribution": 0.08345338935527252,
+        "impact": "positive"
+      }
+    ]
+  }
+]
